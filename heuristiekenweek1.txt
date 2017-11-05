@@ -1,0 +1,27 @@
+Week 1
+
+PROBLEEMTYPES (naar Eiben)
+1. Constraint satisfaction problem (CSP)
+	Voorwaarden :
+		- Oplossing moet voldoen aan constraints
+		- Alle oplossingen even goed
+
+	VOORBEELD: Sudoku voldoet hieraan (mits well defined formulation), er moet maar 1 uniek oplossing bestaan.
+
+2. Constrained optimization problem (COP)
+	- Zo goed mogelijke oplossing proberen te vinden, alle oplossingen zijn niet even goed
+	- WEL constraints
+
+	VOORBEELD: Traveling salesman problem
+		Oplossing: minimaliseer totale afstand
+		Constraints:
+			- Alle punten langs
+			- Slechts 1 keer langs de punten
+
+3. Free optimization problem (FOP)
+	- Zo goed mogelijke oplossing proberen te vinden, alle oplossingen zijn niet even goed
+	- Geen constraints  	
+	
+	VOORBEELD: Lineaire regressie
+		   y = Beta*x + eps
+		   minimaliseren SSR = sum(e'e)
